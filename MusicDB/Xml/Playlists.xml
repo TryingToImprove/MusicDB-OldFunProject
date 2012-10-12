@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<playlists>
+  <playlist>
+    <id>1</id>
+    <title>abe</title>
+    <songs>
+      <song>
+        <id>
+          2VFTL8ZLrzk
+        </id>
+      </song>
+      <song>
+        <id>
+          9oZ03sNTE14
+        </id>
+      </song>
+      <song>
+        <id>
+          vIk25NlP3o8
+        </id>
+      </song>
+      <song>
+        <id>
+          4uFalk1y38I
+        </id>
+      </song>
+      <song>
+        <id>
+          4Kq5hxvQ1E4
+        </id>
+      </song>
+    </songs>
+  </playlist>
+  <playlist>
+    <id>2</id>
+    <title>
+      Hahahaha
+    </title>
+    <songs />
+  </playlist>
+  <playlist>
+    <id>3</id>
+    <title>Numse</title>
+    <songs />
+  </playlist>
+</playlists>

@@ -1,0 +1,46 @@
+﻿<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Untitled Document</title>
+		<link href="styles.css" rel="stylesheet" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+    
+
+       <div class="sidebar_wrapper" onMouseOver="sidebar_api.show()" onmouseout="sidebar_api.hide()">
+        
+            <div id="sidebar" class="main_content">
+            
+            	<form id="sidebar_form">
+                
+                	<input type="text" id="txtSearchString" />
+                	<input type="submit" id="btnSubmit" value="Search" />
+                
+                </form>
+            
+            	<div id="results"></div>
+
+                <div class="bottombar">
+                    <div onclick="sidebar_api.myPlaylist();"></div>
+                    <div style="background-color:darkred" onclick="$('#btnSubmit').trigger('submit')"></div>
+                    <div style="background-color:green" onclick="Playlist.displayForm();"></div>
+                </div>    
+
+
+            </div>
+        
+        </div>
+        
+        <div class="player_wrapper">
+        
+        
+        </div>
+
+ 		<script type="text/javascript" src="jScript.js"></script>
+ 		<script type="text/javascript" src="sidebar.js"></script>
+ 		<script type="text/javascript" src="player.js"></script>
+               
+    </body>
+</html>
